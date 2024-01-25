@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
 
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
     <!-- css link -->
     <link rel="stylesheet" href="styles.css" />
 
@@ -250,55 +253,73 @@ https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.min.css
         class="hero-sect"
       >
         <div
-          style="padding-top: 5rem"
+          style="padding-top: 14rem"
           class="sub2 text-light section pb-5 mb-5 web"
         >
-          <h1 style="font-size: 56px" class="text-dark">You are invited at</h1>
+          <h3
+            style="font-size: 35px; text-transform: uppercase"
+            class="fw-bold"
+          >
+            You are invited at
+          </h3>
 
-          <div style="width: 450px" class="my-5 tech-bg">
-            <h1 style="font-size: 56px" class="fw-bold text-light">
-              Brainiac, <br />
-              Let's connect
-            </h1>
-          </div>
+          <h1
+            style="font-size: 56px; text-transform: uppercase"
+            class="fw-bold"
+          >
+            Brainiac, Let’s connect
+          </h1>
+          <!-- <p style="font-size: 26px; text-transform: uppercase" class="pb-1">
+            Services
+          </p> -->
 
-          <!-- <h1 style="font-size: 56px" class="my-5 text-dark">
-            Partners
-          </h1> -->
-
-          <div style="width: 400px" class="bg-light">
-            <p class="text-dark p-3 my-5">
-              Partnering for impactful Digital Solutions
+          <div style="width: 430px; text-transform: uppercase" class="bg-dark">
+            <p class="text-light fs-3 p-3 my-5">
+              Partnering for Impactful Digital Solutions
             </p>
           </div>
 
-          <button class="btnx-v2">
-            <i class="fa-solid fa-question"></i> <a style="text-decoration: none; color: #fff;" href="tel:+234 7025 640 059">Request A Call Back</a>
+          <button style="margin-top: 110px" class="btnx">
+            <a
+              style="text-decoration: none; color: #fff"
+              href="tel:+234 7025 640 059"
+              >Talk to an expert</a
+            >
           </button>
         </div>
 
         <div
-          style="padding-top: 15rem"
+          style="padding-top: 20rem"
           class="sub2 text-light section pb-5 mb-5 mobile"
         >
-          <h1 style="font-size: 34px" class="text-dark">You are invited at</h1>
+          <h3
+            style="font-size: 35px; text-transform: uppercase"
+            class="fw-bold"
+          >
+            You are invited at 
+          </h3>
 
-          <div style="width: 230px" class="my-5 tech-bg">
-            <h1 style="font-size: 32px" class="fw-bold text-light">
-              Brainiac, Let's connect
-            </h1>
-          </div>
-
-          <h1 style="font-size: 40px" class="my-5 text-dark">Partners</h1>
-
-          <div style="width: 310px" class="bg-light">
-            <p class="text-dark fs-3 p-3 my-5">
-              Partnering for impactful Digital Solutions
+          <h1
+            style="font-size: 50px; text-transform: uppercase;"
+            class="fw-bold tex"
+          >
+            Brainiac, Let’s connect   
+          </h1>
+          <!-- <p style="font-size: 20px; text-transform: uppercase" class="pb-5">
+            Services
+          </p> -->
+          <div style="width: 190px; text-transform: uppercase" class="bg-dark">
+            <p class="text-light fs-3 p-3 my-5">
+              Partnering for Impactful Digital Solutions
             </p>
           </div>
 
-          <button class="btnx-v2">
-            <i class="fa-solid fa-question"></i> <a style="text-decoration: none; color: #fff;" href="tel:+234 7025 640 059">Talk to an expert</a>
+          <button style="margin-top: 130px" class="btnx">
+            <a
+              style="text-decoration: none; color: #fff"
+              href="tel:+234 7025 640 059"
+              >Talk to an expert</a
+            >
           </button>
         </div>
         <a href="social-media-page.html" class="frame2">
@@ -324,7 +345,7 @@ https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.min.css
         <h1 class="text-dark fw-bold pb-5">Talk To Our Specialist Team</h1>
       </div>
       <div class="contact-form w-50 mx-auto web">
-        <form action="#" class="mx-auto contact-form">
+        <form id="desktopForm" action="#" class="mx-auto contact-form">
           <div class="dspl">
             <div class="field-container dsp-item">
               <label for="company-name"> Company * </label>
@@ -390,7 +411,7 @@ https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.min.css
             </div>
           </div>
           <div class="field-container">
-            <label for="service"> Do Youn Know Your Budget * </label>
+            <label for="service"> Whats Your Budget * </label>
             <input
               type="text"
               id="service"
@@ -419,7 +440,7 @@ https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.min.css
         </form>
       </div>
       <div class="contact-form mobile">
-        <form action="#" class="mx-auto contact-form">
+        <form id="mobileForm" action="#" class="mx-auto contact-form">
           <div class="dspl">
             <div class="field-container dsp-item">
               <label for="company-name"> Company * </label>
@@ -1047,6 +1068,29 @@ https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.min.css
       </div>
     </footer>
 
+    <!-- <div id="success" class="modal modal-message fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close" data-dismiss="modal" aria-label="Close"
+              ><span aria-hidden="true">&times;</span></span
+            >
+            <h2 class="modal-title">Thank you</h2>
+            <p class="modal-subtitle">Your message is successfully sent...</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+<!-- Modal -->
+<div class="modal" id="successModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p>Email successfully sent <i class="fas fa-check-circle"></i></p>
+  </div>
+  </div>
+</div>
+
     <script src="script.js"></script>
 
     <!-- Swiper JS -->
@@ -1110,5 +1154,27 @@ https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.min.css
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+  // Function to handle form submission
+  function submitForm(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Your form processing logic here (send email, etc.)
+
+    // Show success modal
+    document.getElementById('successModal').style.display = 'block';
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    document.getElementById('successModal').style.display = 'none';
+  }
+
+  // Attach the submitForm function to the form's submit event
+  document.getElementById('desktopForm').addEventListener('submit', submitForm);
+  document.getElementById('mobileForm').addEventListener('submit', submitForm);
+</script>
+
   </body>
 </html>
